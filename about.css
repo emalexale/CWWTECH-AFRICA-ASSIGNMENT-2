@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    color: rgb(6, 6, 6);
+}
+.container{
+    background-color:#256D85;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color:white;
+
+}
+
+.Emalex{
+    padding-left: 40px;
+}
+
+.nav{
+    color:white;
+    font-size: medium;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+
+.nav a{
+    color: red;
+    position: relative;
+    padding-right: 20px;
+    font-weight: bold;
+
+}
+
+.nav a:hover{
+    background-color: #435B66;
+    transition: 0.3s;
+
+}
+
+
+div {
+
+    padding: 50px 50px;
+    align-items: center;
+    font-size: large;
+}
+
+p {
+    font-size: 50px;
+    color:black;
+}
